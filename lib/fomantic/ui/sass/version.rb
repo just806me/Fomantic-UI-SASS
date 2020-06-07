@@ -1,8 +1,8 @@
 module Fomantic
   module Ui
     module Sass
-      VERSION = '2.8.3'.freeze
-      SEMANTIC_UI_SHA = '43f6ea48cb917e3319e13b774a160e22fabcd2d9'.freeze
+      VERSION = '2.8.5'.freeze
+      SEMANTIC_UI_SHA = '023bdfbf559f221fd42e39ad644f80956f57446a'.freeze
     end
   end
 end
