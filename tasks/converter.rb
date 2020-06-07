@@ -26,13 +26,9 @@ class Converter
   end
 
   def process
-    # process_stylesheets_assets
-
-    process_images_and_fonts_assets
-    # store_version
-
     checkout_repository
     choose_version(@branch)
+    process_images_and_fonts_assets
     process_stylesheets_assets
     process_javascript_assets
     store_version
